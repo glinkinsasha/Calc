@@ -1,0 +1,63 @@
+.conteiner {
+	background-color: #000000;
+	position: absolute;
+	width: 400px;
+	height: 600px;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -300px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+.input {
+	position: absolute;
+	width: 360px;
+	height: 45px;
+	left: 50%;
+	top: 30px;
+	margin: 0;
+	padding: 0;
+	margin-left: -180px;
+	&:focus-visible{
+		outline: 0px;
+	}
+	font-size: 40px;
+}
+.number-block {
+	margin-top: 100px;
+}
+.number-string {
+	display: flex;
+}
+.block__button {
+	font-size: 35px;
+	height: 60px;
+	width: 60px;
+	margin: 20px;
+	text-align: center;
+	line-height: 60px;
+	border-radius: 100%;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none; 
+	&.orange{
+		color: #d68b00;
+	}
+	&.equals{
+		background-color: #d68b00;
+		&:hover{
+			background-color: #d68b00;
+		}
+	}
+	&:hover{
+		background-color: rgb(63, 63, 63);
+	}
+	&:active{
+		height: 56px;
+		width: 56px;
+		margin: 22px;
+		line-height: 56px;
+	}
+}
